@@ -6,9 +6,9 @@ It lists all files and subdirectories inside a given folder recursively
 and shows the structure with indentation like a tree view.
 
 Features 
-• Recursively scans all subfolders 
-• Displays directories and files 
-• Indented output for easy readability
+Recursively scans all subfolders 
+Displays directories and files 
+Indented output for easy readability
 
 Requirements Python 3.13
 
