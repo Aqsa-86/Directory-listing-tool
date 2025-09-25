@@ -1,13 +1,13 @@
 
 #Imports the os module so you can interact with the file system
-#(list directories, join paths, check if something is a directory, etc.).
+#list directories, join paths, check if something is a directory, etc.
 
 import os
 
 def list_dir(s): # define function that takes a path 's'
 
-    def dir_list(d):            ## define inner function to list directories inside path 'd'
-        nonlocal tap_stop       ## use tap_stop variable from outer function
+    def dir_list(d):            #define inner function to list directories inside path 'd'
+        nonlocal tap_stop       #use tap_stop variable from outer function
         files = os.listdir(d)   #gets a list of names (files and subdirectories) inside directory
 
         # loop through each file/folder in current directory
@@ -30,5 +30,6 @@ def list_dir(s): # define function that takes a path 's'
     else:
         print(s+'Directory does not exist')
 
-## call function with given path
+# call function with given path
+
 list_dir('C:\\Users\\Arena Multimedia\\PyCharmMiscProject')
