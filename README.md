@@ -3,7 +3,7 @@
 Python Directory Listing Tool This is a simple Python project built in
 PyCharm.
 It lists all files and subdirectories inside a given folder recursively
-and shows the structure with indentation like a tree view.
+and shows the structure with indentation.
 
 Features 
 Recursively scans all subfolders 
